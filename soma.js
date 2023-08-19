@@ -1,5 +1,5 @@
-const somaDoisNumeros = (a, b) => {
-    return a + b;
-  };
- 
+const somaDoisNumeros = (primeiroNumero, segundoNumero) => {
+  return primeiroNumero + segundoNumero;
+};
+
 module.exports = { somaDoisNumeros };
