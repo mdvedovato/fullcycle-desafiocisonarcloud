@@ -1,4 +1,4 @@
-name: Build
+name: ci-fullcycle
 on:
     pull_request:
         branches: 
