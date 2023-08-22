@@ -21,7 +21,6 @@ jobs:
             - run: npm test
             - run: node ./soma.js
             
-            - name: Set up QEMU # responsável por rodar o Docker em diversas arquiteturas
-              uses: docker/setup-qemu-action@v2
+
                   
             
