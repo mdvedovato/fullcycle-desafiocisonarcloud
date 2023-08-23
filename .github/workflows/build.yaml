@@ -18,7 +18,8 @@ jobs:
             - run: npm test
             - run: node ./soma.js
 
-            - uses: sonarsource/sonarqube-scan-action@master
+            - name: SonarCloud Scan
+              uses: sonarsource/sonarqube-scan-action@master
               env:
                 SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
             
